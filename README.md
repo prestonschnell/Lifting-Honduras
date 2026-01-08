@@ -1,16 +1,13 @@
-# React + Vite
+# Lifting Honduras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Lifting Honduras is a nonprofit organization dedicated to empowering children in Honduras by providing essential supplies and services. Our mission is to improve access to education, healthcare, and basic necessities for underserved communities.
 
-Currently, two official plugins are available:
+## What We Do
+- Distribute educational materials and school supplies
+- Provide healthcare resources and wellness services
+- Support community development initiatives
+- Partner with local organizations to maximize impact
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Get Involved
+For inquiries about volunteering, donations, or partnerships, please reach out to our team.
