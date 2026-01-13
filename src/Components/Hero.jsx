@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import './Hero.css'
-import img2 from '../assets/2.avif'
-import img3 from '../assets/3.avif'
-import img4 from '../assets/4.avif'
-import img6 from '../assets/6.avif'
+import img1 from '../assets/1.webp'
+import img2 from '../assets/IMG_4043.jpeg'
+import img3 from '../assets/IMG_3766.jpeg'
+import img4 from '../assets/IMG_3776.jpeg'
 
 const Hero = () => {
-  const images = [img2, img3, img4, img6]
+  const images = [img2, img3, img4, img1]
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   useEffect(() => {
@@ -30,7 +30,9 @@ const Hero = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className={`carousel-slide ${index === currentImageIndex ? 'active' : ''}`}
+            className={`carousel-slide ${image === img2 ? 'carousel-slide-center' : ''} ${
+              index === currentImageIndex ? 'active' : ''
+            }`}
             style={{ backgroundImage: `url(${image})` }}
           />
         ))}

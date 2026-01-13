@@ -6,9 +6,11 @@ import Impact from '../src/Components/Impact.jsx'
 import About from '../src/Components/About.jsx'
 import Donors from '../src/Components/Donors.jsx'
 import Quote from '../src/Components/Quote.jsx'
+import Mission from '../src/Components/Mission.jsx'
+import Tomorrow from '../src/Components/Tomorrow.jsx'
+import Quote2 from '../src/Components/Quote2.jsx'
 
 function App() {
-
   return (
     <>
       <div>
@@ -18,7 +20,10 @@ function App() {
         <About />
         <Donors />
         <Quote />
-        </div>
+        <Mission />
+        <Quote2 />
+        <Tomorrow />
+      </div>
     </>
   )
 }

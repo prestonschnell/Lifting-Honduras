@@ -32,6 +32,10 @@
   transition: opacity 0.8s ease-in-out;
 }
 
+.carousel-slide-center {
+  background-position: center calc(50% + 200px);
+}
+
 .carousel-slide.active {
   opacity: 1;
 }

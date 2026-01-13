@@ -47,7 +47,7 @@ const About = () => {
             that help remove barriers to learning. We focus on meeting basic needs so children
             can show up to school prepared, confident, and ready to succeed. Guided by a deep
             connection to Honduras and a belief in the potential of every child, Lifting Honduras
-            is committed to creating meaningful, lasting impact—one mission, one community, and
+            is committed to creating meaningful, lasting impactƒ?"one mission, one community, and
             one child at a time.
           </p>
         </div>
