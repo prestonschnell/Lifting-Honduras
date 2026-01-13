@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import NavBar from '../src/Components/NavBar.jsx'
 import Hero from '../src/Components/Hero.jsx'
@@ -12,7 +13,7 @@ import Quote2 from '../src/Components/Quote2.jsx'
 
 function App() {
   return (
-    <>
+    <BrowserRouter asename="/Lifting-Honduras/">
       <div>
         <NavBar />
         <Hero />
@@ -24,7 +25,7 @@ function App() {
         <Quote2 />
         <Tomorrow />
       </div>
-    </>
+    </BrowserRouter>
   )
 }
 
