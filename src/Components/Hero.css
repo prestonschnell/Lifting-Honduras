@@ -168,6 +168,10 @@
     height: 100vh;
   }
 
+  .carousel-slide-center {
+    background-position: center;
+  }
+
   .hero-title {
     font-size: 40px;
   }

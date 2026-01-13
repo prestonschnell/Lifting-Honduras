@@ -90,6 +90,11 @@
     font-size: 18px;
   }
 
+  .tomorrow-video {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .tomorrow-content p {
     font-size: 14px;
     line-height: 1.6;

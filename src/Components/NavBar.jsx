@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './NavBar.css'
+import logo from '../assets/logo.avif'
 
 const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(false)
   const navItems = [
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
@@ -12,17 +14,37 @@ const NavBar = () => {
     { label: 'Donate', href: '#donate' }
   ]
 
+  const handleToggle = () => {
+    setIsOpen((prev) => !prev)
+  }
+
+  const handleNavClick = () => {
+    setIsOpen(false)
+  }
+
   return (
     <nav className="floating-nav">
-      {navItems.map((item) => (
-        <a
-          key={item.label}
-          href={item.href}
-          className="nav-link"
-        >
-          {item.label}
-        </a>
-      ))}
+      <button
+        className="nav-toggle"
+        type="button"
+        aria-expanded={isOpen}
+        aria-label="Toggle navigation"
+        onClick={handleToggle}
+      >
+        <img src={logo} alt="Lifting Honduras" className="nav-logo" />
+      </button>
+      <div className={`nav-links ${isOpen ? 'open' : ''}`}>
+        {navItems.map((item) => (
+          <a
+            key={item.label}
+            href={item.href}
+            className="nav-link"
+            onClick={handleNavClick}
+          >
+            {item.label}
+          </a>
+        ))}
+      </div>
     </nav>
   )
 }
