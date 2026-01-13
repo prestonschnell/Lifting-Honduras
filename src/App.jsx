@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import NavBar from '../src/Components/NavBar.jsx'
 import Hero from '../src/Components/Hero.jsx'
@@ -10,10 +9,11 @@ import Quote from '../src/Components/Quote.jsx'
 import Mission from '../src/Components/Mission.jsx'
 import Tomorrow from '../src/Components/Tomorrow.jsx'
 import Quote2 from '../src/Components/Quote2.jsx'
+import { HashRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <BrowserRouter asename="/Lifting-Honduras/">
+    <HashRouter>
       <div>
         <NavBar />
         <Hero />
@@ -25,7 +25,7 @@ function App() {
         <Quote2 />
         <Tomorrow />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
