@@ -74,6 +74,14 @@
   width: calc(100% - 24px);
 }
 
+.nav-link.active {
+  color: #a8dadc;
+}
+
+.nav-link.active::after {
+  width: calc(100% - 24px);
+}
+
 /* Mobile responsiveness */
 @media (max-width: 1024px) {
   .floating-nav {

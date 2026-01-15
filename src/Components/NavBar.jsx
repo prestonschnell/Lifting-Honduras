@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import './NavBar.css'
 import logo from '../assets/logo.avif'
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
   const navItems = [
-    { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
-    { label: 'Team', href: '#team' },
-    { label: 'Missions', href: '#missions' },
-    { label: 'Contact', href: '#contact' },
-    { label: 'FAQ', href: '#faq' },
-    { label: 'Donate', href: '#donate' }
+    { label: 'Home', to: '/', end: true },
+    { label: 'About', to: '/about' },
+    { label: 'Team', to: '/team' },
+    { label: 'Missions', to: '/missions' },
+    { label: 'Contact', to: '/contact' },
+    { label: 'FAQ', to: '/faq' },
+    { label: 'Donate', to: '/donate' }
   ]
 
   const handleToggle = () => {
@@ -35,14 +36,15 @@ const NavBar = () => {
       </button>
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
         {navItems.map((item) => (
-          <a
+          <NavLink
             key={item.label}
-            href={item.href}
-            className="nav-link"
+            to={item.to}
+            end={item.end}
+            className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}
             onClick={handleNavClick}
           >
             {item.label}
-          </a>
+          </NavLink>
         ))}
       </div>
     </nav>

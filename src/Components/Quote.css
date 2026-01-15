@@ -10,6 +10,7 @@
   justify-content: center;
   margin-left: calc(-50vw + 50%);
   box-sizing: border-box;
+  margin-top: 100px;
 }
 
 .quote-background {
@@ -19,6 +20,14 @@
   background-position: center calc(100% + 200px);
   transform: scale(1.02);
   z-index: 1;
+}
+
+.quote-section.quote-opportunity .quote-background {
+  background-position: center;
+}
+
+.quote-section.quote-history .quote-background {
+  background-position: center calc(100% + 950px);
 }
 
 .quote-overlay {
@@ -31,7 +40,7 @@
 .quote-content {
   position: relative;
   z-index: 3;
-  max-width: 900px;
+  max-width: 1500px;
   padding: 0 24px;
   text-align: center;
   color: white;
@@ -48,6 +57,10 @@
 
 .quote-highlight {
   color: #667eea;
+}
+
+.quote-highlight-alt {
+  color: #88c6ff;
 }
 
 @media (max-width: 768px) {

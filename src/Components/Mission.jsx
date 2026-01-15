@@ -9,7 +9,7 @@ const Mission = () => {
     <section className="mission-section">
       <div className="mission-container">
         <div className="mission-content">
-          <h1>Creating Lasting Impact,</h1>
+          <h1>Creating Lasting Impact</h1>
           <div className="mission-divider" />
           <h3>What we do</h3>
           <p>
