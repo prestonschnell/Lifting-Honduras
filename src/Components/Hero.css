@@ -15,6 +15,14 @@
   height: 50vh;
 }
 
+.hero--half.hero--logo {
+  box-shadow: 0 28px 40px -20px rgba(102, 126, 234, 0.6);
+}
+
+.hero--half.hero--logo .carousel-overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
 .hero-page-title {
   position: absolute;
   bottom: 32px;
@@ -59,6 +67,17 @@
 
 .carousel-slide--raise {
   background-position: center calc(50% + 850px);
+}
+
+.carousel-slide--logo {
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.carousel-slide--logo.carousel-slide--logo-shift {
+  background-position: center calc(50% - 10px);
 }
 
 .carousel-overlay {
