@@ -1,13 +1,18 @@
-# Lifting Honduras
 
-## Overview
-Lifting Honduras is a nonprofit organization dedicated to empowering children in Honduras by providing essential supplies and services. Our mission is to improve access to education, healthcare, and basic necessities for underserved communities.
+## 🌐 Live Preview
+![Live Preview](./src/assets/lifting_honduras.gif)
 
-## What We Do
-- Distribute educational materials and school supplies
-- Provide healthcare resources and wellness services
-- Support community development initiatives
-- Partner with local organizations to maximize impact
+## 📌 Overview
+Designed and developed a custom website for **Lifting Honduras Foundation**, a registered 501(c)(3) nonprofit supporting education in underserved communities in Honduras.  
 
-## Get Involved
-For inquiries about volunteering, donations, or partnerships, please reach out to our team.
+This project was completed over one month and involved frequent client collaboration, multiple design iterations, and a focus on creating a trustworthy, engaging user experience that clearly communicates the organization’s mission and encourages donations.
+
+## 🛠 Tech Stack
+- **Frontend:** React, HTML, CSS  
+- **Deployment:** GitHub Pages  
+
+## 🚀 Contributions & Outcome
+- Led the project end-to-end, from concept to deployment  
+- Collaborated directly with the client to refine design and functionality  
+- Built a responsive, user-focused interface to improve accessibility and engagement  
+- Delivered a professional platform that strengthens credibility and supports outreach  
